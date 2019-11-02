@@ -13,15 +13,10 @@ a {
   border-radius: 3px;
   text-align: center;
   text-decoration: none;
-  /* padding: 19px 54px; */
-  /* text-decoration: none; */
-  /* margin-top: 44px; */
-  /* width: 240px; */
 }
 
 .btn:hover {
-  opacity: 0.4;
-  color: black;
+  opacity: 0.5;
 }
 
 .nr-header {
@@ -151,55 +146,93 @@ a {
 .nr-section3 {
   display: flex;
   justify-content: space-between;
+  padding-top: 40px;
   margin-bottom: 76px;
+  border-top: 2px solid #cfcfcf;
 }
 
 .nr-section3-left {
   max-width: 650px;
 }
+.nr-section3-left ul{
+  list-style: none;
+}
+
+
 .nr-section3-left__title {
   font-size: 43px;
   font-weight: 500;
 }
 
 .nr-section3-left__descr {
+  font-size: 16px;
   line-height: 24px; /**/
+  padding-top: 36px;
 }
+.nr-section3-left__title2 {
+  font-size: 16px;
+  padding-top: 46px;
+  font-weight: 700;
+}
+.nr-section3-left__list {
+  padding-top: 35px;
+  font-size: 16px;
+}
+.nr-section3-left__list:before {
+  display: inline-block;
+  content: '';
+  background-color: #fb565a;
+  width: 25px;
+  height: 2px;
+  margin-right: 10px;
+}
+
+
+
+
 .nr-section3-right {
   max-width: 362px;
 }
-.nr-section3-right-wrapper {
+/* .nr-section3-right-wrapper {
   display: flex;
-}
+  justify-content: space-between;
+  
+} */
 
-.nr-section3-right__title{
+.nr-section3-right__title {
   font-size: 16px;
   font-weight: 700;
+  padding-top: 40px;
+  text-align: center;
 }
-.nr-section3-right__persent{
+.nr-section3-right__persent {
   font-size: 45px;
   font-weight: 700;
+  padding-top: 48px;
 }
-
+.nr-section3-right__text {
+  margin-top: 28px;
+  font-size: 16px;
+  line-height: 18px;
+}
 
 .nr-section4 {
   min-height: 340px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 45px 0;
   border-top: 2px solid #cfcfcf;
   border-bottom: 2px solid #cfcfcf;
 }
 
-.nr-customers:not(:first-child){
+.nr-customers:not(:first-child) {
   padding-left: 45px;
   border-left: #cfcfcf solid;
-
 }
 
 .nr-section5 {
-  background-image: url(../img/map.jpg);
+  background-image: url(../img/map_nerds.png);
   min-height: 418px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -228,6 +261,9 @@ a {
 .nr-section5-about-wrapper {
   padding: 50px;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .nr-section5-about__btn {
