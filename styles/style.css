@@ -61,6 +61,11 @@ a {
 .nr-top-cart {
   font-weight: 500;
 }
+.nr-top-cart span{
+color: #000000;
+font-weight: 500;
+}
+
 .nr-section1 {
   display: flex;
   /* position: relative; */
@@ -69,6 +74,11 @@ a {
   padding-top: 200px;
   /* margin-top: 198px; */
 }
+
+.nr-section1-wrapper{
+  display: flex;
+}
+
 .nr-section1-left {
   max-width: 380px;
   /* height: 100%; */
@@ -108,9 +118,6 @@ a {
 
 .nr-info-block-bottom__btn {
   padding: 18px 40px;
-  text-decoration: none;
-  display: block;
-  text-align: center;
   width: 161px;
 }
 
@@ -154,6 +161,10 @@ a {
   align-items: center;
 }
 
+/* .nr-customers img:hover{
+  background-color: #fb565a;
+} */
+
 .nr-section5 {
   background-image: url(../img/map.jpg);
   min-height: 418px;
@@ -164,11 +175,17 @@ a {
   /* align-items: center; */
 }
 
+.nr-section5-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .nr-section5-about {
   /* display: flex; */
   /* justify-content: center; */
   /* align-items: center; */
-  position: absolute;
+  /* position: absolute; */
   width: 320px;
   height: 310px;
   background-color: #fff;
@@ -212,7 +229,7 @@ a {
 }
 
 .nr-social__items:hover{
-  background-color: rgb(23, 62, 236);
+  background-color: #fb565a;
 }
 
 .nr-footer-text {
