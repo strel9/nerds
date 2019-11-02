@@ -43,7 +43,7 @@ a {
 }
 
 .nr-top-menu__items:not(:first-child) {
-  margin-left: 45px; /*left first*/
+  padding-left: 45px;
 }
 
 .nr-top-menu__items a {
@@ -64,7 +64,7 @@ a {
 .nr-top-cart__name {
   color: #000000;
   font-weight: 500;
-  margin-left: 24px;
+  padding-left: 24px;
 }
 .nr-top-cart__name:hover {
   color: #fb565a;
@@ -95,7 +95,7 @@ a {
 }
 .nr-section1-left__descr {
   font-size: 16px;
-  margin-top: 28px;
+  padding-top: 28px;
   font-weight: 400;
   line-height: 24px; /**/
 }
@@ -121,7 +121,7 @@ a {
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
-  margin: 30px 0;
+  padding: 30px 0;
 }
 .nr-info-block-text__descr {
   line-height: 24px; /**/
@@ -211,7 +211,7 @@ a {
   padding-top: 48px;
 }
 .nr-section3-right__text {
-  margin-top: 28px;
+  padding-top: 28px;
   font-size: 16px;
   line-height: 18px;
 }
@@ -305,7 +305,7 @@ a {
   font-weight: 700;
 }
 .nr-footer-text__descr {
-  margin-top: 12px;
+  padding-top: 12px;
   font-size: 16px;
   font-weight: 400;
 }
