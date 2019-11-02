@@ -238,21 +238,15 @@ a {
   background-repeat: no-repeat;
   display: flex;
   margin-top: 80px;
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 
 .nr-section5-wrapper {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
 .nr-section5-about {
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* position: absolute; */
   width: 320px;
   height: 310px;
   background-color: #fff;
@@ -311,6 +305,7 @@ a {
   font-weight: 700;
 }
 .nr-footer-text__descr {
+  margin-top: 12px;
   font-size: 16px;
   font-weight: 400;
 }
