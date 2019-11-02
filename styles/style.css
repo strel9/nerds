@@ -210,6 +210,11 @@ a {
   font-weight: 700;
   padding-top: 48px;
 }
+.nr-section3-right__persent span{
+  font-size: 25px;
+  vertical-align: top;
+}
+
 .nr-section3-right__text {
   padding-top: 28px;
   font-size: 16px;
@@ -219,17 +224,30 @@ a {
 .nr-section4 {
   min-height: 340px;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
   padding: 45px 0;
   border-top: 2px solid #cfcfcf;
   border-bottom: 2px solid #cfcfcf;
 }
-
-.nr-customers:not(:first-child) {
-  padding-left: 45px;
-  border-left: #cfcfcf solid;
+.nr-customers{
+  width: 209px;
+  height: 87px;
+  width: 24.98%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
+.nr-customers:not(:first-child) {
+  border-left: 2px #cfcfcf solid;
+}
+.nr-customers a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .nr-section5 {
   background-image: url(../img/map_nerds.png);

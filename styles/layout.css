@@ -21,9 +21,9 @@
 .ba-col-6 {
     width: 50%;
 }
-.ba-col-4 {
-    width: 25%;
-}
+/* .ba-col-4 { */
+    /* width: 25%; */
+/* } */
 [class ^= 'ba-col-'] {
     padding: 0 15px;    
 }
