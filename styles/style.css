@@ -154,10 +154,9 @@ a {
 .nr-section3-left {
   max-width: 650px;
 }
-.nr-section3-left ul{
+.nr-section3-left ul {
   list-style: none;
 }
-
 
 .nr-section3-left__title {
   font-size: 43px;
@@ -180,25 +179,16 @@ a {
 }
 .nr-section3-left__list:before {
   display: inline-block;
-  content: '';
+  content: "";
   background-color: #fb565a;
   width: 25px;
   height: 2px;
   margin-right: 10px;
 }
 
-
-
-
 .nr-section3-right {
   max-width: 362px;
 }
-/* .nr-section3-right-wrapper {
-  display: flex;
-  justify-content: space-between;
-  
-} */
-
 .nr-section3-right__title {
   font-size: 16px;
   font-weight: 700;
@@ -210,7 +200,7 @@ a {
   font-weight: 700;
   padding-top: 48px;
 }
-.nr-section3-right__persent span{
+.nr-section3-right__persent span {
   font-size: 25px;
   vertical-align: top;
 }
@@ -230,11 +220,11 @@ a {
   border-top: 2px solid #cfcfcf;
   border-bottom: 2px solid #cfcfcf;
 }
-.nr-customers{
-  width: 209px;
+.nr-customers {
+  width: 25%;
   height: 87px;
-  width: 24.98%;
   min-height: 100%;
+
   display: flex;
   justify-content: center;
   align-content: center;
@@ -242,12 +232,13 @@ a {
 .nr-customers:not(:first-child) {
   border-left: 2px #cfcfcf solid;
 }
-.nr-customers a{
+.nr-customers a {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
-
+.nr-customers a img:hover{
+  transform: scale(1.2); /* Увеличиваем масштаб */
+}
 
 .nr-section5 {
   background-image: url(../img/map_nerds.png);
